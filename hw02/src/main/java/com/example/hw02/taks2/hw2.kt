@@ -1,7 +1,7 @@
 package com.example.hw02.task2
 
 fun main() {
-    // Part A Test with -1, 0, and 2
+    // Part A
     val daysRemaining = 2
     if (daysRemaining < 0) {
         println("Overdue")
@@ -10,7 +10,6 @@ fun main() {
     } else {
         println("Upcoming")
     }
-
     // Part B
     val month = 9
     val monthName = when (month) {
